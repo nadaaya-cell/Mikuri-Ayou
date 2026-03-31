@@ -130,3 +130,21 @@ footer {
     font-size: 2rem;
   }
 }
+/* Cute Rounded Logo Style */
+.banner-logo {
+  width: 100px;            /* size of the logo */
+  height: 100px;           /* keep it square for perfect circle */
+  border-radius: 50%;      /* makes it round */
+  border: 5px solid #fcd5d5; /* pastel pink border */
+  background-color: #fff0f0; /* pastel beige background */
+  padding: 5px;            /* space between logo image and border */
+  box-shadow: 0 4px 15px rgba(212,123,123,0.4); /* soft pink shadow */
+  object-fit: cover;       /* ensure image fits circle nicely */
+  transition: transform 0.3s, box-shadow 0.3s; /* hover effect */
+}
+
+/* Optional Hover Effect */
+.banner-logo:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(212,123,123,0.5);
+}
